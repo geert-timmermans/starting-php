@@ -1,6 +1,6 @@
 ## Table of contents
 
-1. [Introduction](1.introduction)
+1. [Introduction](1.Introduction)
 1. [Variables](./2-php-variables.md)
 1. [Conditions](./3-php-conditions.md)
 1. [Arrays](./4-php-arrays.md)
