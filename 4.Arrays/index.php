@@ -101,5 +101,31 @@ $sum = $countHobbiesDad + $countHobbiesMe;
 echo('<h4>sum of hobbies from me and dad</h4>');
 echo($sum);
 
+echo('<h4>Changing values, in this case change name to Peeters</h4>');
+$me['name'] = 'Peeters';
+print_r($me['name']);
+echo('<br>');
+
+$soulmate = array(
+    'name' => 'Gijsbers',
+    'firstName' => 'Elke',
+    'age' => 31,
+    'hobbies' => array(
+        'hiking', 'yoga'
+    ),
+);
+$child = array(
+    'name' => 'Timmermans',
+    'firstName' => 'Marthe',
+    'age' => '3',
+    'hobbies' => array(
+        'playing', 'hiking', 'drawing', 'painting'
+    ),
+);
+echo('<h4>Create an array based on other arrays (2 or more)</h4>');
+echo('<h4>intersection of hobbies from soulmate and child</h4>');
+print_r(array_intersect($soulmate['hobbies'], $child['hobbies']));
+echo ('<br>');
+print_r(array_merge($soulmate['hobbies'], $child['hobbies']));
 
 ?>
