@@ -1,6 +1,6 @@
 <?php
 echo'<h4>for loop</h4>';
-for ($i = 1; $i < 10; $i++) {
+for ($i = 1; $i < 11; $i++) {
     echo "$i. Hello world! <br/>";
 }
 
