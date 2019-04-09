@@ -85,7 +85,6 @@ $dad = array(
     ),
 );
 //push $dad into $me via push
-$me ['papa'] = array();
 $me ['papa'] = $dad;
 
 print_r($dad);
