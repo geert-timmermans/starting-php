@@ -1,4 +1,6 @@
-## Table of contents
+##Learning PHP
+  
+# Table of contents
 
 1. [Introduction](./1.Introduction)
 1. [Variables](./2.Variables)
